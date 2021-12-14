@@ -1,8 +1,8 @@
 # vue3-component-template
 
-## Project setup
+## 安装包
 ```
-yarn install
+yarn 
 ```
 
 ### Compiles and hot-reloads for development
@@ -14,10 +14,11 @@ yarn serve
 ```
 yarn build
 ```
-
-### Lints and fixes files
+## 目录结构
 ```
-yarn lint
+    examples 文件用于测试
+    src 用于编写组件
+      --compName  组件名称
 ```
 
 ### Customize configuration

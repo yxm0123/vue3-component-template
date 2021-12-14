@@ -1,2 +1,2 @@
-const test = '11'
-export  default test
+import testComp from './compName/index.vue';
+export  default testComp;

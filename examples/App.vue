@@ -1,7 +1,7 @@
 <template>
   <div>
     <img alt="Vue logo" src="./assets/logo.png" />
-    {{ txt }}
+    <testComp/>
   </div>
 <!--  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />-->
 </template>
@@ -9,17 +9,15 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
-import test from '../src/index'
+import testComp from '../src/index'
 export default defineComponent({
   name: "App",
   components: {
     // HelloWorld,
+    testComp
   },
   setup(){
-    const txt = test;
-    return {
-      txt
-    }
+   return {}
   }
 });
 </script>
